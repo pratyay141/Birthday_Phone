@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Shohini</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <audio id="bg-music" src="DOORIYAN_Love Aaj Kal_.mp3" loop></audio>
+  <div class="banners-left">
+    <img src="banner.png" class="side-banner" />
+    <img src="banner.png" class="side-banner" />
+    <img src="banner.png" class="side-banner" />
+  </div>
+  <div class="banners-right">
+    <img src="banner.png" class="side-banner" />
+    <img src="banner.png" class="side-banner" />
+    <img src="banner.png" class="side-banner" />
+  </div>
+
+  <div class="background-section"></div>
+  
+  
+  <div class="glass-portrait" style="display: none;">
+  <img id="mhohini" src="mhohini.png" alt="Shohini Birthday" style="display: none;" />
+  <div id="candles-container" class="candles"></div>
+  <div id="message" class="message" style="display: none;">🎂<b>Happy 23rd Birthday, Shohini!<b>🎂<br>I hope this little surprise brings a smile to your face and adds a bit of joy to your day.<br>Keep being your true, beautiful self, Shohini.<br>And I hope you liked the background music too.</div>
+  <button id="confetti-btn" onclick="launchConfetti(event)" style="display: none;">🎊🎊</button>
+</div>
+<button id="next-btn" onclick="nextStage()">CLICK ME</button>
+<canvas id="confetti-canvas"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
